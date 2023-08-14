@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Создание аккаунта</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<div class="containerm">
+    <h1>Создание аккаунта</h1>
+    <form action="/create/account" method="post">
+        <input type="text" name="userName" placeholder="Впишите ваше имя" class="form-control">
+        <input type="text" name="userId" placeholder="Впишите ваш ID" class="form-control">
+        <button type="submit" class="btn yoyoy">Создать аккаунт</button>
+    </form>
+</div>
+
+<!--<div th:insert="block/footer :: footer"></div>-->
+</body>
+</html>
